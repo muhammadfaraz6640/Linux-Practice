@@ -1,0 +1,45 @@
+---------------linux commands--------------
+1)cd/--> go to the root directory
+2)ls -->show all the files and folders in the current directory
+3)cd.. --> one step before
+4)mkdir <dir name> -->make folder in the current directory
+5)touch app.js -->create file in the current directory
+6)vi <file name> -->to open file in editor in terminal
+6(A) press i in editor to insert mode on
+6(B) press escape to come back from insert mode in file
+6(C) after writing in a file , press shift + colon then write wq to quit
+7) cat <file name> --> to read the file in the folder
+every data in CLI is access through root
+8) to copy a file from directory A to B then go to the Directory A and write command cp <file name which is in A> <path to the directory B from root>
+9) if you want to move file From directory A to B then go to Directory A and write command mv <file name> <path from root to the directory B>     (this file should remove from dirA now>
+10) rm <file name> to remove file in current directory
+11) man <any linux command> will give you the description of the command
+12) if you want to find the file in the directory from multiple files then go to that directory and write find <path to that directory from root> -name <file name>  -->it returns path of that file if found otherwise return nothing
+13) uname a -->returns the name of OS currently running
+14) uname -a -->returns the architecture of processor, and version of OS etc
+15) lscpu --> returns the complete description of cpu
+16) df -h -->returns human readable disk size 
+17) du <path to the current directory>  --> returns the disk size attained by each file and folder
+18) du -s <path to the current directory> -->returns the total space of the current directory
+19) date -->returns system time and date
+20) cal -->returns system calendar  
+21) clear --> to clear the working screen
+22) apt-get install <package name> -->install the desired package in the system
+23) apt-cache search <keyword for the package to search>
+24) type <command> --> give the location of that command store in your system
+25) free --> free and used memory
+26) ps --> shows all the running jobs
+27) kill <process id get from ps > --> close that running process
+28) nice --> set the priority in cpu of the programs
+29) top -->dynamic real-time view of cpu and memory
+30) su - -->move to the admin view
+31) shutdown -->shutdown the system
+------------------user roles--------------------
+if you want to install a package then you should login with root user.
+solution:
+sudo su  --> password enter then root user is active
+but every time login to root is bad practise then enter the command
+sudo <command to install package> i-e sudo apt-get install python
+
+
+
