@@ -40,6 +40,18 @@ solution:
 sudo su  --> password enter then root user is active
 but every time login to root is bad practise then enter the command
 sudo <command to install package> i-e sudo apt-get install python
+---------------------shortcut--------------------
+apt-g+tab to complete command apt-get 
+ins+tab --> install
+apt+tab+tab -->all commands with apt
+ctrl+a  -->cursor reaches at the beggining of the command
+ctrl+e -->cursor reaches at the end of the command
+arrow up -->last typed commands
+arrow down --> next commands
+---------------------permissions----------------
+.sh file -->sh files are unix (linux) shell executables files, they are the equivalent (but much more powerful) of bat files on windows. So you need to run it from a linux console, just typing its name the same you do with bat files on windows.
+
+
 
 
 
