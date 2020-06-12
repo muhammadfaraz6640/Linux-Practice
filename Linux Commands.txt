@@ -50,6 +50,42 @@ arrow up -->last typed commands
 arrow down --> next commands
 ---------------------permissions----------------
 .sh file -->sh files are unix (linux) shell executables files, they are the equivalent (but much more powerful) of bat files on windows. So you need to run it from a linux console, just typing its name the same you do with bat files on windows.
+scripting in linux : 1) create file sample.sh 2) open file with vi sample.sh 3) write echo "my name is" : $1 where dollar1 will be our argument which we will pass
+4) then run file by ./sample.sh faraz where faraz is the $1 argument
+if error occured then you have to grant permission to that file
+0 no permission , 1 executable permission //which is missing in our case
+,2 write permission and 4 for read permission
+if you want to check permissions on your file then write ls -L(small) to check
+then there appears 3 classes with 1st class rw(read-write permissions) to the owner
+2nd class rw permissions to the groups you assigns
+3rd class r(read) to the users
+
+then to grant permissions to the file we have ,
+chmod 777 <file name>
+where 7=(0+1+2+4) and triple 7 for all the three classes of users
+after that you can execute your script file
+-------------------more commands----------------
+1)uptime -->Uptime is a command that returns information about how long your system has been running together with the current time, number of users with running sessions, and the system load averages 
+2)uname -->name the os you are using
+3)uname -srv --> os name,version and releases
+4)man <command> --> all commands functions
+5) cd ` --> move to the root and home directory
+6) pwd --> current directory
+7)hostname 
+8)hostname -i -->ip address current
+9) cp <file name> <destination path> -->copy file
+10) search by name " find <path of searching dir> -name <file name> "
+11) search by name with any ext " find <path of searching dir> -name <file name*> "
+----------------------check hardware specs-----------------------
+1)uname -a -->cpu information
+2)uname -p -->check processor
+3) cat /proc/cpuinfo --> more cpu info
+4) df --> mounted harddisk
+5) df -h --> human readable form hardisk info
+
+
+
+
 
 
 
