@@ -34,6 +34,22 @@ every data in CLI is access through root
 29) top -->dynamic real-time view of cpu and memory
 30) su - -->move to the admin view
 31) shutdown -->shutdown the system
+32) Alias <command name> --> Assign a command alias – especially useful for long commands 
+33) unalias <command name> --> remove command from alis
+34) Gunzip <file name> --> unzip file
+35) Gzip <file name> --> zip file
+36) Wc <file name>--> Display the count of the number of characters, words, and lines in a file 
+37)grep -i "UNix" geekfile.txt --> find and search word
+38)Sort <file name>--> Arrange the lines in a file 
+39) Reboot --> start a process
+40) free --> check for a free memory
+41) groupadd <group name> --> to add the group
+42) useradd <options> <user name> --> to add the users
+options-->
+-g   Main user group (gid)
+-d   User Home directory, by default located at /home/<UserName>
+-m  Create Home directory in case it doesn’t exist.
+-s   Assign a specific shell to the user, by default it is /bin/bash.
 ------------------user roles--------------------
 if you want to install a package then you should login with root user.
 solution:
@@ -82,6 +98,12 @@ after that you can execute your script file
 3) cat /proc/cpuinfo --> more cpu info
 4) df --> mounted harddisk
 5) df -h --> human readable form hardisk info
+--------------------shortcuts----------------
+1)arrowup and down to show the command history
+2)backspace -->delete the characters
+3)ctrl+A --> transfers cursor at the begining of the line
+4)ctrl+E --> transfers cursor at the End of the line
+5) ctrl+R + few letter of the commands you want to find in the history
 
 
 
