@@ -80,6 +80,17 @@ then to grant permissions to the file we have ,
 chmod 777 <file name>
 where 7=(0+1+2+4) and triple 7 for all the three classes of users
 after that you can execute your script file
+7 --> all permissions(rwx)
+6 --> read and write permission(rw-)
+5 --> read and execute permission (r-x)
+4 --> only read permission
+1st position -->user
+2nd position -->group
+3rd position -->others
+e.g: chmod 754 <file name>
+it means all permissions to owner i-e user
+read and execute permission to groups 
+and only read permission to others
 -------------------more commands----------------
 1)uptime -->Uptime is a command that returns information about how long your system has been running together with the current time, number of users with running sessions, and the system load averages 
 2)uname -->name the os you are using
